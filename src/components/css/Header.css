@@ -1,0 +1,54 @@
+.header {
+    margin-left: 96px;
+    margin-right: 96px;
+    padding-top: 48px;
+    padding-bottom: 24.6px;
+    border-bottom: 1px solid var(--gray-text);
+}
+
+.header-nav {
+    list-style-type: none;
+    margin-left: 103.12px;
+    gap: 53.49px;
+}
+
+.header-nav-item {
+    font-weight: 500;
+    font-size: 17.83px;
+    color: #606060;
+
+    a {
+        color: #606060;
+
+        &:hover {
+            color: #6C5FBC;
+        }
+    }
+}
+
+.header-actions {
+    .login-btn {
+        width: 102.49px;
+        padding-top: 17.83px;
+        padding-bottom: 17.83px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 17.83px;
+        color: #606060;
+    }
+
+    .sign-btn {
+        width: 121.49px;
+        padding-top: 17.83px;
+        padding-bottom: 17.83px;
+        background-color: #6C5FBC;
+        border: none;
+        border-radius: 17.83px;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 17.83px;
+        color: #F9F9F9;
+    }
+}

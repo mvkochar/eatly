@@ -1,0 +1,146 @@
+import './css/Home.css'
+
+const Home = () => {
+  return (
+    <>
+      <main className='home-main d-f align-center'>
+        <div>
+          <p className="home-main-above">Over 1000 users</p>
+          <h1 className="home-main-title">
+            Enjoy Foods All Over The <span>World</span>
+          </h1>
+          <p className="home-main-desc">
+            EatLy help you set saving goals, earn cash back offers,
+            Go to disclaimer for more details and get paychecks up
+            to two days early. Get a <span>$20 bonus.</span>
+          </p>
+          <div className="home-main-actions d-f">
+            <a href="" className="started-link d-b">Get Started</a>
+            <a href="" className="pro-link d-b">Go Pro</a>
+          </div>
+          <div className="home-main-info d-f align-center">
+            <div><img src="/images/trustpilot.svg" alt="trustpilot" /></div>
+            <div className="home-main-reviews d-f">
+              <div><img src="/images/stars.png" alt="stars" /></div>
+              <p className="reviews-num">4900+</p>
+            </div>
+          </div>
+        </div>
+        <div><img src="/images/home-main.png" alt="home-main" /></div>
+      </main>
+      <section className='home-features d-f align-center'>
+        <dl>
+          <dt>10K+</dt>
+          <dd>Satisfied Costumers <br /> All Great Over The World </dd>
+        </dl>
+        <div className="line"></div>
+        <dl>
+          <dt>4M</dt>
+          <dd>
+            Healthy Dishes Sold <br /> Including Milk Shakes Smooth
+          </dd>
+        </dl>
+        <div className="line"></div>
+        <dl>
+          <dt>99.99%</dt>
+          <dd>Reliable Customer Support We Provide Great Experiences </dd>
+        </dl>
+      </section>
+      <section className='home-download d-f'>
+        <div><img src="/images/mobile.png" alt="mobile" /></div>
+        <div>
+          <h2 className="home-download-title">Premium <span>Quality</span> <br /> For Your Health</h2>
+          <ul className="home-download-list">
+            <li>Premium quality food is made with ingredients that are packed with essential vitamins, minerals.</li>
+            <li>These foods promote overall wellness by support healthy digestion and boosting immunity</li>
+          </ul>
+          <div className="home-download-more">
+            <div className="home-download-action d-f">
+              <p className="action-name">Download</p>
+              <a href="" className="d-b">
+                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6.55469 13.5469H22.3588" stroke="white" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M14.4561 5.64453L22.3581 13.5466L14.4561 21.4487" stroke="white" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+            <div className='home-download-vector'><img src="/images/vector1.png" alt="vector1" /></div>
+          </div>
+        </div>
+      </section>
+      <section className='home-restaurants'>
+        <h2 className="page-bl-title text-center">Our Top <span>Restaurants</span></h2>
+        <div className="home-restaurants-box d-f jc-sb">
+          <div className="home-restaurants-card">
+            <div><img src="/images/restaurant1.png" alt="restaurant1" /></div>
+            <div className="restaurants-card-info d-f jc-sb">
+              <div>
+                <div className="restaurants-card-highlight highlight-healthy">Healthy</div>
+                <h3 className="restaurants-card-title">The Chicken King</h3>
+                <div className="restaurants-card-details d-f align-center">
+                  <p className="restaurants-card-time">24min •</p>
+                  <div className="restaurants-card-rating d-f align-center">
+                    <div><img src="/images/star.png" alt="Star" /></div>
+                    <p className="rating-num">4.8</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ alignSelf: "flex-end" }}>
+                <img src="/images/bookmark.png" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+          <div className="home-restaurants-card">
+            <div><img src="/images/restaurant2.png" alt="restaurant2" width={396} /></div>
+            <div className="restaurants-card-info d-f jc-sb">
+              <div>
+                <div className="restaurants-card-highlight highlight-trending">Trending</div>
+                <h3 className="restaurants-card-title">The Burger King</h3>
+                <div className="restaurants-card-details d-f align-center">
+                  <p className="restaurants-card-time">24min •</p>
+                  <div className="restaurants-card-rating d-f align-center">
+                    <div><img src="/images/star.png" alt="Star" /></div>
+                    <p className="rating-num">4.9</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ alignSelf: "flex-end" }}>
+                <img src="/images/bookmark.png" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+          <div className="home-restaurants-card">
+            <div><img src="/images/restaurant3.png" alt="restaurant3" width={396} /></div>
+            <div className="restaurants-card-info d-f jc-sb">
+              <div>
+                <div className="restaurants-card-highlight highlight-healthy">Healthy</div>
+                <h3 className="restaurants-card-title">The Chicken King</h3>
+                <div className="restaurants-card-details d-f align-center">
+                  <p className="restaurants-card-time">24min •</p>
+                  <div className="restaurants-card-rating d-f align-center">
+                    <div><img src="/images/star.png" alt="Star" /></div>
+                    <p className="rating-num">4.9</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ alignSelf: "flex-end" }}>
+                <img src="/images/bookmark.png" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-restaurants-all d-f align-center">
+          <p className="all-name">View All</p>
+          <a href="" className="d-b">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 9.90234H17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.90234 2L17.8044 9.90206L9.90234 17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default Home
