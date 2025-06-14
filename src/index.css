@@ -20,6 +20,7 @@ body {
   width: 1440px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
+  background-color: #F9F9F9;
 }
 
 .d-b {
@@ -88,7 +89,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 45px;
-    line-height: 25.6px;
+    line-height: 58.2px;
     color: #323142;
 
     span {

@@ -1,3 +1,5 @@
+import { FoodCard } from '../components'
+import { DishesList } from '../db'
 import './css/Home.css'
 
 const Home = () => {
@@ -137,6 +139,67 @@ const Home = () => {
               <path d="M9.90234 2L17.8044 9.90206L9.90234 17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           </a>
+        </div>
+      </section>
+      <section className='home-dishes'>
+        <h2 className="page-bl-title text-center">Our Top <span>Dishes</span></h2>
+        <div className="home-dishes-box d-f jc-sb">
+          {
+            DishesList.map((food) => {
+              return (
+                <FoodCard
+                  key={`top-dishes${food.id}`}
+                  {...food}
+                />
+              )
+            })
+          }
+        </div>
+        <div className="home-dishes-all d-f align-center">
+          <p className="all-name">View All</p>
+          <a href="" className="d-b">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 9.90234H17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.90234 2L17.8044 9.90206L9.90234 17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section className='home-purchases d-f'>
+        <div>
+          <h2 className="page-bl-title">Control <span>Purchases</span> <br /> Via Dashboard</h2>
+          <div className="home-purchases-orders d-f">
+            <div className="order d-f jc-sb">
+              <div className='order-food d-f align-center'>
+                <div><img src="/images/order1.png" alt="order1" width={77.26} /></div>
+                <div>
+                  <h3 className="order-food-title">Chicken Hell</h3>
+                  <p className="order-food-status">On The Way</p>
+                </div>
+              </div>
+              <p className="order-time">3:09 PM</p>
+            </div>
+            <div className="order d-f jc-sb">
+              <div className='order-food d-f align-center'>
+                <div><img src="/images/order2.png" alt="order2" width={77.26} /></div>
+                <div>
+                  <h3 className="order-food-title">Swe Dish</h3>
+                  <p className="order-food-status">Delivered</p>
+                </div>
+              </div>
+              <p className="order-time">Yesterday</p>
+            </div>
+              <div className="order d-f jc-sb">
+              <div className='order-food d-f align-center'>
+                <div><img src="/images/order3.png" alt="order3" width={77.26} /></div>
+                <div>
+                  <h3 className="order-food-title">Fish Hell Veg</h3>
+                  <p className="order-food-status">Cancelled</p>
+                </div>
+              </div>
+              <p className="order-time">Yesterday</p>
+            </div>
+          </div>
         </div>
       </section>
     </>
