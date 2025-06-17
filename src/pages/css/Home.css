@@ -334,9 +334,12 @@
     margin-top: 100px;
     margin-left: 97px;
     margin-right: 93px;
-    gap: 141px;
     padding-bottom: 134.54px;
     border-bottom: 1px solid var(--gray-text);
+
+    >div:nth-child(1) {
+        width: 70%;
+    }
 }
 
 .home-purchases-orders {
@@ -389,4 +392,140 @@
 
 .order:last-child .order-food-status {
     color: #F1534E;
+}
+
+.home-purchases-saving {
+    width: 379.73px;
+    margin-left: 105.25px;
+    padding-top: 26.8px;
+    padding-bottom: 32.39px;
+    background-color: var(--white);
+    border: 1.11686px solid #EDF2F7;
+    border-radius: 17.8698px;
+    box-shadow: 10px 10px 29px 0px rgba(0, 0, 0, 0.75);
+
+    .purchases-saving-heading {
+        padding-left: 29.04px;
+        padding-right: 26.08px;
+    }
+
+    .purchases-saving-title {
+        font-family: "Manrope", sans-serif;
+        font-weight: 900;
+        font-size: 20.1px;
+        line-height: 135%;
+        letter-spacing: 0.22px;
+        color: #1A202C;
+    }
+
+    .select-wr {
+        width: 125.09px;
+        padding-left: 13.38px;
+        padding-right: 13px;
+        background-color: #FAFAFA;
+        border-radius: 8.93px;
+
+        select {
+            width: 100%;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-family: "Manrope", sans-serif;
+            font-weight: 600;
+            font-size: 13.4px;
+            letter-spacing: 0.45px;
+            color: #1A202C;
+        }
+    }
+}
+
+.home-purchases-card {
+    width: 326.12px;
+    margin-top: 32.2px;
+    margin-left: 26.8px;
+    margin-right: 26.81px;
+    padding: 18px;
+    border: 1.12px solid #EDF2F7;
+    border-radius: 13.4px;
+    font-family: "Manrope", sans-serif;
+
+    .purchases-card-info {
+        gap: 13.4px;
+
+        .info-title {
+            font-weight: 900;
+            font-size: 13.4px;
+            line-height: 150%;
+            letter-spacing: 0.45px;
+            color: #1A202C;
+        }
+
+        .info-desc {
+            margin-top: 2.23px;
+            font-weight: 500;
+            font-size: 11.17px;
+            line-height: 150%;
+            letter-spacing: 0.45px;
+            color: #A0AEC0;
+        }
+    }
+
+    .purchases-card-price {
+        padding-left: 75.24px;
+        font-weight: 900;
+        font-size: 16.54px;
+        letter-spacing: 0.22px;
+    }
+
+    .purchases-card-divider {
+        margin-top: 14.52px;
+    }
+}
+
+.home-testimonials {
+    margin-top: 82.49px;
+}
+
+.home-testimonials-review {
+    width: 375.47px;
+    height: 246.04px;
+    margin: 62.31px auto 0;
+    padding-top: 27.02px;
+    padding-left: 30.58px;
+    padding-right: 30.58px;
+    background-color: var(--white);
+    border-radius: 14.8576px;
+    box-shadow: 0px 20.068px 30.102px rgba(70, 70, 70, 0.1);
+
+    .testimonials-review-author {
+        gap: 14.85px;
+
+        .review-author-name {
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-size: 14.86px;
+            line-height: 22.3px;
+        }
+
+        .review-author-desc {
+            font-family: "Quicksand", sans-serif;
+            margin-top: 0.03px;
+            font-weight: 500;
+            font-size: 11.49px;
+            line-height: 18.6px;
+            color: #5E5D5D;
+        }
+    }
+
+    .testimonials-review-text {
+        margin-top: 22.73px;
+        margin-bottom: 27.4px;
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        font-size: 12.8px;
+        line-height: 18.6px;
+        color: #636363;
+    }
 }

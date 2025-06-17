@@ -189,7 +189,7 @@ const Home = () => {
               </div>
               <p className="order-time">Yesterday</p>
             </div>
-              <div className="order d-f jc-sb">
+            <div className="order d-f jc-sb">
               <div className='order-food d-f align-center'>
                 <div><img src="/images/order3.png" alt="order3" width={77.26} /></div>
                 <div>
@@ -200,6 +200,63 @@ const Home = () => {
               <p className="order-time">Yesterday</p>
             </div>
           </div>
+        </div>
+        <div className='home-purchases-saving'>
+          <div className="purchases-saving-heading d-f jc-sb align-cnenter">
+            <h3 className="purchases-saving-title">Purchases</h3>
+            <div className="select-wr">
+              <select name="month">
+                <option value="this">This month</option>
+              </select>
+            </div>
+          </div>
+          <div className="home-purchases-card">
+            <div className="d-f jc-sb align-center">
+              <div className="purchases-card-info d-f align-center">
+                <div><img src="/images/purchases1.png" alt="purchases1" /></div>
+                <div>
+                  <h4 className="info-title">Expense</h4>
+                  <p className="info-desc">Increased By 10%</p>
+                </div>
+                <h4 className="purchases-card-price">$409.00</h4>
+              </div>
+            </div>
+            <div className="purchases-card-divider"><img src="/images/divider1.png" alt="divider1" width={290.38} /></div>
+          </div>
+          <div className="home-purchases-card">
+            <div className="d-f jc-sb align-center">
+              <div className="purchases-card-info d-f align-center">
+                <div><img src="/images/purchases2.png" alt="purchases2" /></div>
+                <div>
+                  <h4 className="info-title">Vocher Usage</h4>
+                  <p className="info-desc">Increased By 5%</p>
+                </div>
+                <h4 className="purchases-card-price">$45.78</h4>
+              </div>
+            </div>
+            <div className="purchases-card-divider"><img src="/images/divider2.png" alt="divider2" width={290.38} /></div>
+          </div>
+        </div>
+      </section>
+      <section className='home-testimonials'>
+        <h2 className="page-bl-title text-center"><span>Customer</span> Say</h2>
+        <div className="home-testimonials-review">
+          <div className="testimonials-review-heading d-f jc-sb align-center">
+            <div className="testimonials-review-author d-f align-center">
+              <div><img src="/images/review-author.png" alt="review-author" /></div>
+              <div>
+                <p className="review-author-name">Alexander R.</p>
+                <p className="review-author-desc">01 Year With Us</p>
+              </div>
+            </div>
+            <div><img src="/images/quote.png" alt="quote" /></div>
+          </div>
+          <p className="testimonials-review-text">
+            “ Online invoice payment helps companies save time, are faster 
+              and save maximum effort for the clients and save maximum effort. 
+              Online invoice payment helps companies save time ”
+          </p>
+          <div><img src="/images/stars.png" alt="stars" /></div>
         </div>
       </section>
     </>
