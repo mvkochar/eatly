@@ -259,6 +259,16 @@ const Home = () => {
           <div><img src="/images/stars.png" alt="stars" /></div>
         </div>
       </section>
+      <section className='home-subscribe'>
+        <div className="home-subscribe-mask">
+          <h2 className="home-subscribe-title">Get 50%</h2>
+          <form action="" className='home-subscribe-fm'>
+            <input type="text" name='subscribeEmail' placeholder='Enter Your Email Address' />
+            <button type="button">Subscribe</button>
+          </form>
+        </div>
+        <div className='home-subscribe-pic'><img src="/images/food.png" alt="food" /></div>
+      </section>
     </>
   )
 }
