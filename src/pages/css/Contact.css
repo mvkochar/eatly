@@ -1,0 +1,67 @@
+.contact-main {
+    margin-top: 204px;
+    margin-bottom: 111.69px;
+
+    >div:nth-child(1) {
+        margin-top: 6px;
+    }
+}
+
+.contact-fm {
+    margin-top: 62px;
+
+    .input-box {
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    input,
+    textarea,
+    button {
+        display: block;
+        width: 493px;
+    }
+
+    input,
+    textarea {
+        padding-left: 16px;
+        border: 2px solid #6C5FBC;
+        border-radius: 16.89px;
+        outline: none;
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 18.12px;
+        line-height: 27.2px;
+        text-transform: uppercase;
+        color: #B6B6B6;
+
+        &::placeholder {
+            color: #B6B6B6;
+        }
+    }
+
+    input {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    textarea {
+        height: 345px;
+        margin-top: 52px;
+        padding-top: 22.65px;
+        resize: none;
+    }
+
+    button {
+        margin-top: 43px;
+        padding-top: 23px;
+        padding-bottom: 22px;
+        background-color: #6C5FBC;
+        border: none;
+        border-radius: 15.88px;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        font-size: 20.81px;
+        color: #F9F9F9;
+    }
+}
