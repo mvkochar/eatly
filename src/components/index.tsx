@@ -2,5 +2,7 @@ import Header from "./Header";
 import Main from "./Main";
 import Footer from "./Footer";
 import FoodCard from "./FoodCard/FoodCard";
+import Faq from "./Faq/Faq";
+import FaqItem from "./FaqItem/FaqItem";
 
-export { Header, Main, Footer, FoodCard }
+export { Header, Main, Footer, FoodCard, Faq, FaqItem }

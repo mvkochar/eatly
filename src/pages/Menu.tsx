@@ -1,3 +1,5 @@
+import { Faq, FoodCard } from '../components'
+import { DishesList } from '../db'
 import Box from '@mui/material/Box'
 import Slider from '@mui/material/Slider'
 import './css/Menu.css'
@@ -122,6 +124,104 @@ const Menu = () => {
           <button className='menu-filter-apply'>Apply</button>
         </div>
       </main>
+      <section className='home-restaurants'>
+        <h2 className="page-bl-title text-center">Our Top <span>Restaurants</span></h2>
+        <div className="home-restaurants-box d-f jc-sb">
+          <div className="home-restaurants-card">
+            <div><img src="/images/restaurant1.png" alt="restaurant1" /></div>
+            <div className="restaurants-card-info d-f jc-sb">
+              <div>
+                <div className="restaurants-card-highlight highlight-healthy">Healthy</div>
+                <h3 className="restaurants-card-title">The Chicken King</h3>
+                <div className="restaurants-card-details d-f align-center">
+                  <p className="restaurants-card-time">24min •</p>
+                  <div className="restaurants-card-rating d-f align-center">
+                    <div><img src="/images/star.png" alt="Star" /></div>
+                    <p className="rating-num">4.8</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ alignSelf: "flex-end" }}>
+                <img src="/images/bookmark.png" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+          <div className="home-restaurants-card">
+            <div><img src="/images/restaurant2.png" alt="restaurant2" width={396} /></div>
+            <div className="restaurants-card-info d-f jc-sb">
+              <div>
+                <div className="restaurants-card-highlight highlight-trending">Trending</div>
+                <h3 className="restaurants-card-title">The Burger King</h3>
+                <div className="restaurants-card-details d-f align-center">
+                  <p className="restaurants-card-time">24min •</p>
+                  <div className="restaurants-card-rating d-f align-center">
+                    <div><img src="/images/star.png" alt="Star" /></div>
+                    <p className="rating-num">4.9</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ alignSelf: "flex-end" }}>
+                <img src="/images/bookmark.png" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+          <div className="home-restaurants-card">
+            <div><img src="/images/restaurant3.png" alt="restaurant3" width={396} /></div>
+            <div className="restaurants-card-info d-f jc-sb">
+              <div>
+                <div className="restaurants-card-highlight highlight-healthy">Healthy</div>
+                <h3 className="restaurants-card-title">The Chicken King</h3>
+                <div className="restaurants-card-details d-f align-center">
+                  <p className="restaurants-card-time">24min •</p>
+                  <div className="restaurants-card-rating d-f align-center">
+                    <div><img src="/images/star.png" alt="Star" /></div>
+                    <p className="rating-num">4.9</p>
+                  </div>
+                </div>
+              </div>
+              <div style={{ alignSelf: "flex-end" }}>
+                <img src="/images/bookmark.png" alt="bookmark" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="home-restaurants-all d-f align-center">
+          <p className="all-name">View All</p>
+          <a href="" className="d-b">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 9.90234H17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.90234 2L17.8044 9.90206L9.90234 17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section className='home-dishes'>
+        <h2 className="page-bl-title text-center">Our Top <span>Dishes</span></h2>
+        <div className="home-dishes-box d-f jc-sb">
+          {
+            DishesList.map((food) => {
+              return (
+                <FoodCard
+                  key={`top-dishes${food.id}`}
+                  {...food}
+                />
+              )
+            })
+          }
+        </div>
+        <div className="home-dishes-all d-f align-center">
+          <p className="all-name">View All</p>
+          <a href="" className="d-b">
+            <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 9.90234H17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M9.90234 2L17.8044 9.90206L9.90234 17.8041" stroke="#ACADB9" stroke-width="2.25773" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </section>
+      <section className='menu-faq'>
+        <Faq/>
+      </section>
     </>
   )
 }

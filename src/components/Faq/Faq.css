@@ -1,0 +1,11 @@
+.faq-title {
+    text-align: center   
+}
+
+.faq-box {
+    width:  fit-content;
+    margin: 64.8px auto 0;
+    flex-direction: column;
+    gap: 20.44px;
+}
+
