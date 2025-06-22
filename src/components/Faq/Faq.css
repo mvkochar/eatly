@@ -1,5 +1,16 @@
 .faq-title {
-    text-align: center   
+    width: 476px;
+    margin: 0 auto;
+    text-align: center;
+    
+    &::before {
+        content: "";
+        display: block;
+        width: 41px;
+        height: 38.9px;
+        margin-left: auto;
+        background: url("/images/banner-illustration.png") no-repeat;
+    }
 }
 
 .faq-box {
@@ -8,4 +19,3 @@
     flex-direction: column;
     gap: 20.44px;
 }
-
