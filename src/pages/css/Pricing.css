@@ -1,0 +1,161 @@
+.pricing-main {
+    height: 334px;
+    margin-top: 66px;
+    margin-left: 96px;
+    margin-right: 96px;
+    padding-top: 44.3px;
+    background-color: #5C4EAE;
+}
+
+.pricing-main-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -.01em;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.pricing-dashboard {
+    margin-top: -300px;
+    margin-left: 181px;
+}
+
+.pricing-content {
+    margin-top: 151.56px;
+    margin-left: 93px;
+    margin-right: 96px;
+    padding-top: 51px;
+    padding-bottom: 54.06px;
+    background-color: #F9F9F9;
+    border-radius: 15px;
+    box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+}
+
+.pricing-heading {
+    padding-bottom: 37px;
+    padding-left: 65px;
+    padding-right: 92px;
+    border-bottom: 1px solid var(--gray-text);
+
+    dl {
+        dt {
+            font-family: "Poppins", sans-serif;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 120%;
+            letter-spacing: -.01em;
+            color: #282828;
+        }
+
+        dd {
+            margin-top: 25px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #6E757C;
+        }
+    }
+}
+
+.priving-values {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--gray-text);
+    padding-left: 628px;
+    gap: 261px;
+
+    .value {
+        display: flex;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 72px;
+        color: #272E35;
+
+        sup {
+            display: block;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 2;
+            color: #272E35;
+        }
+
+        sub {
+            display: block;
+            align-self: last baseline;
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 3;
+            color: #6E757C;
+        }
+    }
+}
+
+.pricing-features {
+    margin-top: 50px;
+    padding-bottom: 62px;
+    padding-left: 65px;
+    padding-right: 215px;
+    border-bottom: 1px solid var(--gray-text);
+}
+
+.pricing-features-title {
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-size: 24px;
+     line-height: 32px;
+     color: #272E35;
+}
+
+.pricing-features-box {
+    margin-top: 48px;
+}
+
+.pricing-features-list {
+    list-style-type: none;
+
+    li {
+        height: 35px;
+        margin-bottom: 35px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #606060;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.pricing-actions {
+    margin-top: 44px;
+    margin-left: 623px;
+    gap: 228px;
+
+    .action-btn {
+        display: block;
+        width: 146px;
+        padding-top: 17px;
+        padding-bottom: 17.94px;
+        background-color: #6C5FBC;
+        border-radius: 12.41px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 16.27px;
+        font-weight: 500;
+        letter-spacing: .03em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #F9F9F9;
+    }
+}
+
+.pricing-testimonials {
+    margin-bottom: 170px;
+}
