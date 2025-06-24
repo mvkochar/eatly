@@ -1,0 +1,85 @@
+.restaurant-main {
+    margin-top: 106px;
+    margin-left: 104px;
+    margin-right: 98px;
+    background-color: var(--white);
+    border: 1.5931px solid #F4F4F6;
+    box-shadow: 7.57186px 90.8623px 45.4311px rgba(229, 229, 229, 0.7);
+    border-radius: 30px;
+}
+
+.restaurant-main-info {
+    padding-top: 26px;
+    padding-bottom: 31.22px;
+    padding-left: 46px;
+    padding-right: 43.22px;
+}
+
+.restaurant-main-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53.4px;
+    color: #323142;
+}
+
+.restaurant-main-time,
+.restaurant-main-rating {
+    font-family: "Manrope", sans-serif;
+    font-size: 26.23px;
+    line-height: 35px;
+    color: #8E97A6;
+}
+
+.restaurant-main-rating {
+    margin-left: 8.76px;
+    padding-left: 28px;
+    background: url("/images/star.png") no-repeat;
+    background-position: 0;
+}
+
+.restaurant-popular {
+    margin-top: 148px;
+}
+
+.restaurant-popular-title,
+.restaurant-chicken-title {
+    margin-left: 106px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 25.6px;
+    color: #323142;
+}
+
+.restaurant-popular-box,
+.restaurant-chicken-box {
+    margin-top: 60px;
+    margin-left: 100px;
+   
+}
+
+.restaurant-popular-box {
+     margin-right: 91px;
+}
+
+.restaurant-chicken {
+    margin-top: 145.3px;
+}
+
+.restaurant-chicken-box {
+    gap: 31.08px;
+}
+
+.restaurant-chicken-line {
+    width: 1246px;
+    height: 0;
+    margin-top: 150.76px;
+    margin-left: 101px;
+    border: 1px solid var(--gray-text);
+}
+
+.restaurant-faq {
+    margin-top: 129px;
+    margin-bottom: 164.21px;
+}

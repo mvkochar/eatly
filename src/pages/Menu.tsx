@@ -3,6 +3,7 @@ import { DishesList } from '../db'
 import Box from '@mui/material/Box'
 import Slider from '@mui/material/Slider'
 import './css/Menu.css'
+import { Link } from 'react-router-dom'
 
 const marks = [
   {
@@ -116,7 +117,7 @@ const Menu = () => {
                   getAriaValueText={valuetext}
                   step={25}
                   valueLabelDisplay="auto"
-                  marks={marks}        
+                  marks={marks}
                 />
               </Box>
             </div>
@@ -128,7 +129,7 @@ const Menu = () => {
         <h2 className="page-bl-title text-center">Our Top <span>Restaurants</span></h2>
         <div className="home-restaurants-box d-f jc-sb">
           <div className="home-restaurants-card">
-            <div><img src="/images/restaurant1.png" alt="restaurant1" /></div>
+            <div><Link to="/restaurant"><img src="/images/restaurant1.png" alt="restaurant1" /></Link> </div>
             <div className="restaurants-card-info d-f jc-sb">
               <div>
                 <div className="restaurants-card-highlight highlight-healthy">Healthy</div>
@@ -220,7 +221,7 @@ const Menu = () => {
         </div>
       </section>
       <section className='menu-faq'>
-        <Faq/>
+        <Faq />
       </section>
     </>
   )
