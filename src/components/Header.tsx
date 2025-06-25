@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import './css/Header.css'
+import {SignModal} from './'
 
 const Header = () => {
     return (
@@ -17,7 +18,7 @@ const Header = () => {
             </div>
             <div className="header-actions d-f align-center">
                 <button className='login-btn d-b'>Login</button>
-                <button className='sign-btn d-b'>Sign up</button>
+                <SignModal/>
             </div>
         </header>
     )
