@@ -13,8 +13,9 @@ const style = {
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
-    p: 4,
-    display: "flex"
+    p: 0,
+    display: "flex",
+    gap: "18px"
 };
 
 
@@ -33,8 +34,8 @@ const SignModal = () => {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <div style={{ width: "50%" }}>
-                        <div><img src="/images/sign-logo.svg" alt="sign-logo" /></div>
+                    <div style={{width: "calc(1440px - 663px) ", paddingTop: "32px"}}>
+                        <div style={{marginLeft: "48px"}}><img src="/images/sign-logo.svg" alt="sign-logo" /></div>
                         <h2 className="sign-modal-title">Sign Up To eatly</h2>
                         <div className="sign-modal-social d-f">
                             <a href="" className="social-link"><img src="/images/google.png" alt="Google" /></a>
@@ -60,6 +61,20 @@ const SignModal = () => {
                         <div className="sign-copyright d-f jc-sb">
                             <a href="" className="d-b">Privacy Policy</a>
                             <a href="" className="d-b">Copyright 2022</a>
+                        </div>
+                    </div>
+                    <div className="sign-side">
+                        <div className='sign-pic'><img src="/images/sign-pic.png" alt="sign-pic" /></div>
+                        <h2 className="sign-side-title">Find Foods With Love</h2>
+                        <p className="sign-side-desc">
+                            Eatly Is The Food Delivery Dashboard And Having More 
+                            Than 2K+ Dishes Including Asian, Chinese, Italians And Many More. 
+                            Our Dashboard Helps You To Manage Orders And Money.
+                        </p>
+                        <div className="sign-indicator d-f">
+                            <div className="indicator-item__active"></div>
+                            <div className="indicator-item"></div>
+                            <div className="indicator-item"></div>
                         </div>
                     </div>
                 </Box>
