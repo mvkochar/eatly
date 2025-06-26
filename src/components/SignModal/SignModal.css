@@ -9,6 +9,15 @@
     color: #323142;
 }
 
+.sign-modal-desc {
+    margin-top: 34.8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25.56px;
+    line-height: 125%;
+    color: #CFCFD3;
+}
+
 .sign-modal-social {
     width: fit-content;
     margin: 48.28px auto 0;
@@ -121,9 +130,28 @@
         font-weight: 600;
         font-size: 17.79px;
         letter-spacing: .03em;
+        text-transform: uppercase;
         color: #F3F5F6;
     }
+
+    .sign-forget {
+        display: block;
+        width: fit-content;
+        margin-top: 12.23px;
+        margin-left: auto;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        text-transform: none;
+        font-size: 15.56px;
+        color: rgba(108, 95, 188, .7);
+
+    }
 }
+
+
 
 .sign-modal-bottom {
     width: fit-content;

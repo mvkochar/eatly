@@ -26,29 +26,15 @@
     }
 }
 
-.header-actions {
-    .login-btn {
-        width: 102.49px;
-        padding-top: 17.83px;
-        padding-bottom: 17.83px;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        font-weight: 700;
-        font-size: 17.83px;
-        color: #606060;
-    }
-
-    .sign-btn {
-        width: 121.49px;
-        padding-top: 17.83px;
-        padding-bottom: 17.83px;
-        background-color: #6C5FBC;
-        border: none;
-        border-radius: 17.83px;
-        cursor: pointer;
-        font-weight: 700;
-        font-size: 17.83px;
-        color: #F9F9F9;
-    }
+.header-sign-btn {
+    width: 121.49px;
+    padding-top: 17.83px;
+    padding-bottom: 17.83px;
+    background-color: #6C5FBC;
+    border: none;
+    border-radius: 17.83px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17.83px;
+    color: #F9F9F9;
 }
